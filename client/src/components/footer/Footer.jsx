@@ -9,9 +9,7 @@ const Footer = () => {
     <>
       <footer>
         <p className="py-3">
-          &copy;{currentYear} &bull; COVID-19 Tracker App &bull; Contributors:
-           Cate Dunn, Joy Chen, Shiva Sharma,
-          Travis Cultreri{" "}
+          &copy;{currentYear} &bull; Dnd Finder &bull; Built by Joy Chen
         </p>
       </footer>
     </>
