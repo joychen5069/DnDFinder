@@ -1,7 +1,7 @@
 {
-  "name": "covid-tracker",
+  "name": "DnD Campaign Finder",
   "version": "1.0.0",
-  "description": "A Corona Virus informational application that allows users to view current data and utilize a symptom checker",
+  "description": "Help DnD players find campaigns or DMs locally and nationally",
   "main": "./server.js",
   "dependencies": {
     "axios": "^0.19.2",
@@ -32,12 +32,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/traviscult/project-3"
+    "url": "git+https://github.com/joychen5069/DnDFinder"
   },
-  "author": "S Sharma, Joy Chen, Travis Cultreri, Cate Dunn",
+  "author": "Joy Chen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/traviscult/project-3/issues"
+    "url": "https://github.com/joychen5069/DnDFinder/issues"
   },
   "homepage": "https://covid19-tracker-applicaiton.herokuapp.com/"
 }
