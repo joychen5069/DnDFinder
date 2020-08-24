@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import News from './pages/News';
-import Members from './pages/members';
-import Hospitals from './pages/Hospitals'
 import AUTH from './utils/AUTH';
 
 function App() {
