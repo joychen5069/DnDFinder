@@ -24,13 +24,13 @@ header {
 
 header h1 {
   text-transform: uppercase;
-  color: #faebfa;
+  color: #700070;
   text-shadow: 4px 2px 4px #271a27;
   margin: 2.5rem 0 0 3rem;
 }
 
 header p {
-  color: #b0f3cf;
+  color: #0a6836;
   margin-left: 3.5rem;
   margin-top: -5px;
   text-shadow: 2px 2px 2px #000;
@@ -38,7 +38,7 @@ header p {
 
 .logoutBtn {
   background-color: brown;
-  color: #fff!important;
+  color: rgb(66, 0, 0)!important;
   border-radius: 10px;
   outline: none;
   border: none;
@@ -64,6 +64,6 @@ footer {
   background-color: #24071f;
   font-size: .8rem;
   text-align: center;
-  color: rgb(165, 162, 162);
+  color: rgb(87, 0, 0);
   padding: 1rem;
 }

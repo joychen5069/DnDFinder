@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Members from './pages/members';
 import AUTH from './utils/AUTH';
 
 function App() {
@@ -99,9 +100,7 @@ function App() {
         {loggedIn && (
           <BrowserRouter>
             <Route exact path="/" component={() => <Members logout={logout}/>} />
-            <Route exact path="/news" component={() => <News logout={logout}/>} />
             <Route exact path="/members" component={() => <Members logout={logout}/>}  />
-            <Route exact path="/hospitals" component={() => <Hospitals logout={logout}/>}  />
           </BrowserRouter>
         )}
       </div>
