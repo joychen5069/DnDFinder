@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Members from './pages/members';
+import CampaignPage from './pages/campaign'
 import AUTH from './utils/AUTH';
 
 function App() {
@@ -91,9 +92,8 @@ function App() {
         {!loggedIn && (
           <BrowserRouter>
             <Route exact path="/" component={() => <Home signUpUser={signUpUser} login={login} />} />
-            <Route exact path="/news" component={() => <Home signUpUser={signUpUser} login={login} />} />
-            <Route exact path="/members" component={() => <Home signUpUser={signUpUser} login={login} />} />
-            <Route exact path="/hospitals" component={() => <Home signUpUser={signUpUser} login={login} />} />
+            <Route exact path="/members" component={() => <Members logout={logout}/>}  />
+            <Route exact path="/campaign" component={() => <CampaignPage logout={logout}/>}  />
           </BrowserRouter>
         )}
 
