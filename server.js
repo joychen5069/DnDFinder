@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(session({
-  secret: process.env.APP_SECRET || 'mongodb://user:password1@ds031965.mlab.com:31965/heroku_w9nqrtn6',
+  secret: process.env.APP_SECRET,
   store: new MongoStore({ mongooseConnection: dbConnection }),
   resave: false,
   saveUninitialized: false
